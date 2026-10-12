@@ -13,7 +13,7 @@ import requests
 from bs4 import BeautifulSoup
 
 # --- 配置 ---
-TARGET_URL = "http://example.com"  # 请修改为镜像的网站URL
+TARGET_URL = "https://www.webtoons.com/en/canvas/dawn-solangelo/zefron/viewer?title_no=617352&episode_no=4&readingLanguageCode=en"  # 请修改为镜像的网站URL
 DOWNLOAD_DIR = "mirrored_site" #下载文件夹
 SERVER_PORT = 712 #端口号，可自己修改
 RESPECT_ROBOTS_TXT = False  # True: 遵守robots.txt, False: 忽略robots.txt
